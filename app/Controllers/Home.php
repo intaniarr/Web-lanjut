@@ -13,6 +13,7 @@ class Home extends BaseController
 	{
 		$data['nama'] = 'Intania Rahmadhilla';
 		$data['npm'] = '1817051025';
+		$data['jurusan'] = 'Ilmu Komputer';
 
 		echo view('Mahasiswa/header');
 		echo view('Mahasiswa/index', $data);
